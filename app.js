@@ -18,5 +18,5 @@ app.get("/about",(req,res)=>{
 app.use(express.static("public"));
 
 app.listen(8000,()=>{
-    console.log("servicio ubicado en el puerto 8000");
+    console.log("servicio ubicado en http://localhost:8000/");
 })
